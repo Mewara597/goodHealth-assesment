@@ -475,7 +475,8 @@ function App() {
             <div className="frame-20284-1X7">
               <div className="group-19540-kUh">
                 <p className="surprising-benefits-of-washing-your-face-with-salt-water-51B">
-                  6 Surprising Benefits of Washing Your Face with Salt Water
+                  6 Surprising Benefits of
+                  <br /> Washing Your Face with Salt Water
                 </p>
                 <p className="by-mars-by-ghc-on-jun-22-2022-yMT">
                   By Mars by GHC on Jun 22, 2022
@@ -483,8 +484,8 @@ function App() {
               </div>
               <div className="group-19559-bdj">
                 <p className="get-clear-radiant-skin-with-these-9-benefits-of-honey-for-pimples-XGV">
-                  Get Clear, Radiant Skin with these 9 Benefits of Honey for
-                  Pimples
+                  Get Clear, Radiant Skin with these <br />9 Benefits of Honey
+                  for Pimples
                 </p>
                 <p className="by-mars-by-ghc-on-jun-22-2022-2DF">
                   By Mars by GHC on Jun 22, 2022
@@ -493,7 +494,8 @@ function App() {
               <div className="auto-group-whwu-sDs">
                 <div className="group-19560-cBT">
                   <p className="everything-you-need-to-know-about-saffron-benefits-for-skin-JKB">
-                    Everything you need to know about Saffron Benefits for Skin
+                    Everything you need to know <br />
+                    about Saffron Benefits for Skin
                   </p>
                   <p className="by-mars-by-ghc-on-jun-22-2022-AsB">
                     By Mars by GHC on Jun 22, 2022
@@ -501,7 +503,7 @@ function App() {
                 </div>
                 <div className="group-19561-avu">
                   <p className="natural-ways-to-remove-tan-from-hands-tRo">
-                    Natural ways to remove tan from hands
+                    Natural ways to remove <br /> tan from hands
                   </p>
                   <p className="by-mars-by-ghc-on-jun-22-2022-CxH">
                     By Mars by GHC on Jun 22, 2022
