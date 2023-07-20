@@ -1,18 +1,30 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function TopNav() {
-  let time = new Date().getHours() + ":" + new Date().getMinutes();
+  // let time = new Date().getHours() + ":" + new Date().getMinutes();
+
+  // useEffect(() => {
+  //   time = new Date().getHours() + ":" + new Date().getMinutes();
+  // }, [time]);
+
+  const [currentTime, setCurrentTime] = useState(new Date());
 
   useEffect(() => {
-    time = new Date().getHours() + ":" + new Date().getMinutes();
-  }, [time]);
+    const interval = setInterval(() => {
+      setCurrentTime(new Date());
+    }, 1000); // Update the time every second (1000ms)
+
+    return () => clearInterval(interval); // Clean up the interval on component unmount
+  }, []);
 
   return (
     <div className="auto-group-8bsm-94V">
       <div className="browser-bar-android-chrome-1F7">
         <div className="background-urH">
           <div className="android-status-bar-pyF">
-            <div className="item-12-30-NE5">{time}</div>
+            <div className="item-12-30-NE5">
+              {currentTime.toLocaleTimeString()}
+            </div>
             <img
               className="signal-cellular-9Gm"
               src="./assets/signal-cellular.png"
